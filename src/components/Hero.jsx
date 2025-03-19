@@ -15,7 +15,10 @@ const hero = () => {
 
 
         <div className="flex mt-5">
-          <button className="shadow-md bg-gradient-to-r from-[#FF8C00] to-[#FF0080] text-white font-semibold px-4 py-2 rounded-lg">
+          <button 
+          className="shadow-md bg-gradient-to-r from-[#FF8C00] to-[#FF0080] text-white font-semibold px-4 py-2 rounded-lg"
+          onClick={() => setGlobalState('modal', 'scale-0')}
+          >
             CREATE NFTs
           </button>
         </div>

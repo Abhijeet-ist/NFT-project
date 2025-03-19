@@ -12,6 +12,11 @@ const Artworks = () => {
                 <Card key={i} nft={i + 1}/>
             ))}
         </div>
+        <div className="text-color my-5">
+          <button className="shadow-lg shadow-black text-white bg-[#e32970] hover:bg-[#bd255f] rounded-full p-2">
+            Load More
+          </button>
+        </div>
       </div>
     </div>
   );
